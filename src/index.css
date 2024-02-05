@@ -1,13 +1,39 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App-header {
+  background-image: url("../public/image/clouds.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: cover;
+  min-height: 100vh;
+}
+.title {
+  color: #26435d;
+}
+.start-weather-icon {
+  width: 10rem;
+  height: auto;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+input {
+  width: 30rem;
+  border-radius: 80px;
+}
+.weather-details {
+  color: #26435d;
+  width: 40em;
+  height: 20rem;
+  border-radius: 50px;
+  background-color: hsla(0, 0%, 100%, 0.2);
+  box-shadow: 0 0 10px silver;
+}
+.weather-icon {
+  width: 8rem;
+  height: auto;
+  object-fit: contain;
 }
